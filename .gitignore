@@ -1,0 +1,26 @@
+# Build output
+/terraform-provider-cdnpro
+/terraform-provider-cdnpro.exe
+/dist/
+/bin/
+
+# Test and tooling
+*.test
+*.out
+coverage.html
+.terraformrc.local
+
+# Terraform working files from examples
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfvars
+!**/example.tfvars
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

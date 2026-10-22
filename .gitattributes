@@ -1,0 +1,4 @@
+# Keep LF everywhere so gofmt and lint behave the same on Windows checkouts.
+* text=auto eol=lf
+*.png binary
+*.zip binary
